@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>ตารางเเบบที่ 1</h1>
-    <table border="0px" width="600">
-         <tr>
+    <table border="1px" width="500">
+        <tr>
             <td>11</td>
             <td>22</td>
             <td>33</td>
             <td>44</td>
             <td>55</td>
         </tr>
-         <tr>
+        <tr>
             <td>11</td>
             <td>22</td>
             <td>33</td>
             <td>44</td>
             <td>55</td>
         </tr>
-         <tr>
+        <tr>
             <td>11</td>
             <td>22</td>
             <td>33</td>
             <td>44</td>
             <td>55</td>
         </tr>
-         <tr>
+        <tr>
             <td>11</td>
             <td>22</td>
             <td>33</td>
@@ -44,5 +46,58 @@
             <td>55</td>
         </tr>
     </table>
+    <br>
+    <h1>ตารางเเบบที่ 2 (เเตละช่องของตารางขนาดไม่เท่ากัน)
+        <table style="text-align: center;" border="1" width="500">
+            <tr style="background-color: yellow;">
+                <td colspan="2" rowspan="2">a</td>
+                <td>b</td>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+            <tr style="background-color: rgb(8, 236, 42);">
+                <td colspan="2">e</td>
+                <td rowspan="2">f</td>
+            </tr>
+            <tr style="background-color: rgb(7, 183, 252);">
+                <td>g</td>
+                <td>h</td>
+                <td>i</td>
+                <td rowspan="3">j</td>
+            </tr>
+            <tr style="background-color: rgb(208, 53, 185);">
+                <td colspan="3">k</td>
+                <td>i</td>
+            </tr>
+            <tr>
+                <td style="background-color: rgb(252, 7, 7);" colspan="2">m</td>
+                <td>n</td>
+                <td>o</td>
+            </tr>
+        </table>
+        <br>
+        <h1>Workshop Table ครั้งที่ 1</h1>
+        <table style="text-align: center;" border="1" width="500">
+            <tr style="background-color: yellow;">
+                <td colspan="2" rowspan="2">a</td>
+                <td>b</td>
+                <td>c</td>
+                <td rowspan="2">d</td>
+            </tr>
+            <tr style="background-color: blue;">
+                <td colspan="2">e</td>
+            </tr>
+            <tr style="background-color: rgb(71, 132, 71);">
+                <td rowspan="2">f</td>
+                <td colspan="3">g</td>
+                <td>h</td>
+            </tr>
+            <tr style="background-color: purple;">
+                <td>i</td>
+                <td>j</td>
+                <td colspan="2">k</td>
+            </tr>
+        </table>
 </body>
+
 </html>
